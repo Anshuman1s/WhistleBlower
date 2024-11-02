@@ -4,6 +4,7 @@ import HashTags from '../Navbar/HashTags'
 import Body from '../Body/Body'
 
 const Home = () => {
+  document.title = "Home"
   return (
     <>
       <Navbar/>

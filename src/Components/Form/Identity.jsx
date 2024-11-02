@@ -4,7 +4,8 @@ import { useNavigate, Link } from 'react-router-dom';
 import { RiArrowGoBackLine } from "react-icons/ri";
 
 const Identity = () => {
-  const navigate = useNavigate(); // Use the useNavigate hook
+  document.title = "Claim your id"
+  const navigate = useNavigate(); 
 
   return (
     <>
