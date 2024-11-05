@@ -5,9 +5,11 @@ import Post from './Post';
 const Body = () => {
   return (
     <div className='w-full h-screen relative font-[poppins] font-semibold'>
-      <div className="w-[70%] bg-zinc-200 absolute left-[15vw] top-10 p-5 space-y-10"> 
+      <div className="w-[70%] bg-zinc-200 absolute left-[15vw] top-10 p-5 space-y-10 rounded shadow-2xl"> 
         <Post />
+        
       </div>
+      
       
     </div>
   );

@@ -49,8 +49,11 @@ const Form = () => {
                 className="w-full h-[15vw] border border-black rounded p-2 text-medium font-medium outline-none resize-none mt-2"
               ></textarea>
             </div>
+            <button className='m-3 p-3 bg-black text-white rounded ml-[33vw] font-medium hover:bg-blue-300 hover:text-black duration-500'>Submit</button>
           </div>
+          
         </div>
+      
       </div>
     </div>
   );
